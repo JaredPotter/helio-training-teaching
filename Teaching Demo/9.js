@@ -1,4 +1,4 @@
-// Promises can still be effected by callback hell...
+// PROMISES CAN STILL CAUSE CALLBACK HELL
 
 const cityId = 1; // Static ID for example
 getRequest('nps.gov/api/cities/' + cityId)

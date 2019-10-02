@@ -1,18 +1,14 @@
 // EXAMPLE
 
-// Let's say we're building a web app that helps the National Park Service
-// manage the vistors to their famous landmarks.
+// National Park Service Web App for managing vistors to famous landmarks
 
-// First, we query the API to retrieve a particular city by ID.
-//     nps.gov/api/cities/:cityId
-// The City object returned will contain an array of landmark IDs for the city.
+// cityId = 1
 
-// Second, we query the API to retrieve a particular landmark by ID.
-//     nps.gov/api/cities/:cityIdid/landmarks/:landmarkId
-// The Landmark object returned will contain an array of of Vistor IDs for that landmark.
+// First, query the API - nps.gov/api/cities/:cityId
 
-// Third, we query the API to retrieve a particular vistor to the park.
-//     nps.gov/api/cities/:cityIdid/landmarks/:landmarkId/vistors/:vistorId
+// Second, query the API - nps.gov/api/cities/:cityId/landmarks/:landmarkId
+
+// Third, query the API nps.gov/api/cities/:cityId/landmarks/:landmarkId/vistors/:vistorId
 
 
 // KEY POINT: The second request depends on the result of the first. 

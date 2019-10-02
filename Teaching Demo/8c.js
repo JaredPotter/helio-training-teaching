@@ -1,5 +1,4 @@
 // CREATING A PROMISE
-
 const request = require('request'); // importing HTTP request library
 
 function getRequest(url) {
@@ -15,7 +14,6 @@ function getRequest(url) {
 }
 
 // USING A PROMISE
-
 const promise = getRequest('nps.gov/cities/1');
 
 promise

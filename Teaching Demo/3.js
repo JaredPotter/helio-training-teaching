@@ -1,4 +1,4 @@
-// JavaScript is Single Threaded
+// JAVASCRIPT IS SINGLE THREADED
 
 // What does this mean?
 // Single Threaded => One Thing at a Time

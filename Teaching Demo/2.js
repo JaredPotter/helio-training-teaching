@@ -1,3 +1,3 @@
-// JavaScript is Single Theaded
+// JAVASCRIPT IS SINGLE THREADED
 
 // What does this mean?

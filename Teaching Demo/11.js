@@ -1,4 +1,4 @@
-// Async / Await
+// ASYNC & AWAIT
 
 const cityId = 1; // Static ID for example
 const city = await getRequest('nps.gov/api/cities/' + cityId);

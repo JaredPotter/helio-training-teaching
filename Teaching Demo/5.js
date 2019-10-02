@@ -1,7 +1,7 @@
-// Callbacks
+// CALLBACKS
 
 // What is a Callback?
-// Code executed at a later time.
+// Code executed at a later time after something finishes.
 // Asynchronous in JavaScript
 
 console.log('Hello');

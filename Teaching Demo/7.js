@@ -1,7 +1,6 @@
-// Callback Hell - An Anti-Pattern
+// CALLBACK HELL - AN ANTI-PATTERN
 
 const request = require('request'); // importing HTTP request library
-
 const cityId = 1; // Static ID for example
 
 request('nps.gov/api/cities/' + cityId, function (error, response, body) {

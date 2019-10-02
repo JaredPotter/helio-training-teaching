@@ -1,4 +1,4 @@
-// Callback - Event Listener
+// CALLBACK - EVENT LISTENER
 
 console.log('Hello');
 console.log('There, ');
